@@ -1,6 +1,6 @@
 
 import sys
-print ('you have entered IP address',sys.argv[1])
+#print ('you have entered IP address',sys.argv[1])
 ip_addr = sys.argv[1]
 ip_addr_octets = ip_addr.split('.')
 first_octet_bin = bin(int(ip_addr_octets[0]))
